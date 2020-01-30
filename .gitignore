@@ -1,2 +1,8 @@
-./modulo01/node_modules/
-./desafio01/node_modules/
+.vscode/
+.vscode/launch.json
+
+modulo01/node_modules/
+modulo01/yarn.lock
+
+desafio01/node_modules/
+desafio01/yarn.lock
