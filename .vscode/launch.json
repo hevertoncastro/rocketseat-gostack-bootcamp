@@ -6,12 +6,13 @@
   "configurations": [
     {
       "type": "node",
-      "request": "launch",
+      "request": "attach",
       "name": "Launch Program",
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/modulo01/index.js"
+      "restart": true,
+      "protocol": "inspector"
     }
   ]
 }
